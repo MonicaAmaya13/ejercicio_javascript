@@ -1,45 +1,33 @@
-     // Crea una lista de números pares del 2 al 20 utilizando un bucle while.
-var numeros=[];
-var i=0;
-while(i<=20){
-numeros.push(i);
-i = i + 2 ;
+//Crea una lista de números del 1 
+// al 10 utlizando un bucle for 
+numeros_lista=[]; 
+for(var i=1; i<10; i=i+1){
+   numeros_lista.push(i); 
+}
+
+//lista de frutas y verduras con array literal 
+var listaverduras = ["TOMATE", "BROCOLI", "LECHUGA"];
+//añade un elemento al final de la lista anterior 
+listaverduras.push("cebolla");
+//cambia el valor del tercer elemento 
+listaverduras.splice(2, 1, "berenjena"); 
+//recorre la lista con bucle for 
+for(var x = 0; x<10; x=x+1){
+    console.log(lista[x])
+}
+// crea una función que reciba una lista como parámetro y devuelva el número de elementos de la lista
+fuction ultimo_elemento(lista) {
+    console.log(lista[lista,length-1]); 
+}
+//Crea una función que reciba una lista y un elemento como parámetros y devuelva verdadero si es el elemento
+// se encuentra en la lista, o faslso en caso contario
+fuction seEncuentraElementoENlista(lista, elemento){
 
 }
-console.log("Lista de numeros: "+ numeros);
+    for(var i=0; i<lista.length; i++){
 
-    // Crea una lista de números impares del 1 al 19 utilizando un bucle for.
-    var numerosImpares = []
-    for(var index = 1; index<=19; i++){
-        if(index % 2 == 1 ){
-        numerosImpares. push(index)
-            listasImpares.push(i);
+    }
+        if(lista[i] == elemento){
+            return true; 
         }
-    }
-    
-    
-    // Crea una lista de comida.
-    var lista_comida = [ "patatas", "puchero", "macarrones" ]
-    console.log(lista_comida);
-
-
-    
-    // Agrega un elemento al principio de la lista de comida que creaste en el ejercicio anterior.
-    lista_comida.unshift("huevos con salchichas")
-
-    // Accede al segundo elemento de la lista de comida y cambia su valor por otro diferente.
-    
-    
-    // Recorre la lista de comida utilizando un bucle while y muestra cada elemento en la consola.
-    
-    // Crea una función que reciba una lista como parámetro y devuelva el último elemento de la lista.
-    fuction UltimoELementoLista(lista,elemento){
-        
-    }
-    // Crea una función que reciba una lista y un elemento como parámetros y agregue el elemento a la lista si no se encuentra en ella.
-    
-    // Crea una función que reciba una lista como parámetro y devuelva una nueva lista con los elementos de la lista original en orden inverso.
-    
-    // Crea una función que reciba una lista de números como parámetro y devuelva la suma de todos los números de la lista.
-    
-    // Crea una función que reciba una lista de números como parámetro y devuelva la media de todos los números de la lista.
+            
